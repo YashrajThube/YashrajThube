@@ -38,17 +38,17 @@ My core strength lies in turning messy, real-world data into clear insights and 
 
 **Data Analytics & Visualization:** `Pandas` `NumPy` `Matplotlib` `Seaborn` `Exploratory Data Analysis (EDA)`
 
-**Machine Learning:** `Scikit-learn` `XGBoost` `Feature Engineering` `Predictive Modeling` `Cross Validation`
+**Machine Learning:** `Scikit-learn` `XGBoost` `Feature Engineering` `Predictive Modeling` `Cross Validation` `TensorFlow`
 
 **Deep Learning & Generative AI:** `Neural Networks` `LSTM` `NLP` `Generative AI` `Google Gemini API` `Explainable AI (SHAP)`
 
-**Backend Development:** `FastAPI` `Flask` `React` `Streamlit` `REST APIs` `Microservices` `Async Processing`
+**Backend Development:** `FastAPI` `Flask` `React` `Streamlit` `Microservices` `Async Processing`
 
-**Databases:** `PostgreSQL` `MySQL` `SQLite`
+**Databases:**  `MySQL` `SQLite`
 
 **Data Engineering:** `ETL Pipelines` `Data Cleaning` `Data Preprocessing` `Data Transformation`
 
-**Tools & Platforms:** `Git` `GitHub` `Docker` `MLflow` `Librosa`
+**Tools & Platforms:** `Git` `GitHub` `MLflow` `Librosa`
 
 ---
 
@@ -84,7 +84,7 @@ My core strength lies in turning messy, real-world data into clear insights and 
 - Designed scalable, async REST APIs with sub-3 second response latency
 - Implemented monitoring, caching, and a scalable deployment architecture
 
-### 🎯 AI-Powered Customer Churn Prediction Platform
+### 🎯 Customer Churn Prediction Platform
 `Python` `XGBoost` `Scikit-learn` `FastAPI` `Streamlit` `SQLite` `MLflow`
 
 - Built a customer churn prediction platform achieving **87% ROC-AUC**
