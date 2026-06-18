@@ -84,6 +84,19 @@ My core strength lies in turning messy, real-world data into clear insights and 
 - Designed scalable, async REST APIs with sub-3 second response latency
 - Implemented monitoring, caching, and a scalable deployment architecture
 
+### 📊 Retail Sales Analytics & Customer Intelligence Platform
+
+`Python` `Pandas` `MySQL` `Power BI` `Streamlit`
+
+* Developed an end-to-end retail sales analytics and customer intelligence platform using the Brazilian Olist E-Commerce Dataset
+* Processed and analyzed over **100,000+ e-commerce transactions** across customers, orders, products, and payments
+* Designed and optimized **25+ SQL business analytics queries** for revenue, customer, and product performance analysis
+* Implemented **RFM Segmentation** and Customer Lifetime Value (CLV) analysis to identify high-value and at-risk customers
+* Built **90-day sales forecasting models** using Prophet and Random Forest for revenue trend prediction
+* Developed interactive **Streamlit and Power BI dashboards** for real-time KPI monitoring, customer analytics, and business intelligence
+* Automated data cleaning, feature engineering, and reporting workflows, reducing manual analysis effort by **40%**
+* Generated actionable insights to support customer retention, revenue optimization, and data-driven decision-making
+
 ### 🎯 Customer Churn Prediction Platform
 `Python` `XGBoost` `Scikit-learn` `FastAPI` `Streamlit` `SQLite` `MLflow`
 
@@ -108,7 +121,6 @@ My core strength lies in turning messy, real-world data into clear insights and 
 ## 🎓 Education
 
 ### Bachelor of Engineering (B.E.) in Computer Engineering
-**Sandip Institute of Technology and Research Centre, Nashik**
 
 📅 2022 – 2026 | 🎯 GPA: **8.5 / 10.0**
 
