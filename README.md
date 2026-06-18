@@ -145,8 +145,7 @@ My core strength lies in turning messy, real-world data into clear insights and 
 ### 🔥 GitHub Streak
 ![GitHub Streak](https://streak-stats.demolab.com?user=YashrajThube&theme=tokyonight)
 
-### 🏆 GitHub Trophies
-![Trophies](https://github-profile-trophy.vercel.app/?username=YashrajThube&theme=tokyonight&row=1&column=7)
+
 
 ---
 
