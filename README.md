@@ -4,13 +4,7 @@ Hi 👋, I'm Yashraj Thube
 Data Science | Data Analytics | Machine Learning | Deep Learning | Generative AI
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=26&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=900&lines=Data+Science+Professional;Data+Analytics+%26+EDA+Specialist;Machine+Learning+Engineer;Deep+Learning+Developer;Generative+AI+Explorer;Building+Intelligent+AI+Systems" alt="Typing SVG" />
-<br/>
-Show Image
-Show Image
-Show Image
-Show Image
 
-</div>
 
 👨‍💻 About Me
 
@@ -195,6 +189,6 @@ Show Image
 <div align="center">
 ⭐ Transforming Data into Intelligent Solutions with Data Science, Machine Learning & Generative AI ⭐
 
-Show Image
+
 
 </div>
