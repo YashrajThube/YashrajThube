@@ -4,7 +4,7 @@
 
 ### Data Science | Data Analytics | Machine Learning | Deep Learning | Generative AI
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=26&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=900&lines=Computer+Engineering+Student;Aspiring+Data+Scientist;Data+Analytics+%26+EDA+Enthusiast;Machine+Learning+Practitioner;Deep+Learning+Learner;Generative+AI+Explorer;Building+Data-Driven+Solutions" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=26&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=900&lines=Data+Science;Data+Analytics;Machine+Learning;Deep+Learning;Generative+AI" alt="Typing SVG" />
 
 <br/>
 
