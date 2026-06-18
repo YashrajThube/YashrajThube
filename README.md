@@ -92,7 +92,6 @@ My core strength lies in turning messy, real-world data into clear insights and 
 * Processed and analyzed over **100,000+ e-commerce transactions** across customers, orders, products, and payments
 * Designed and optimized **25+ SQL business analytics queries** for revenue, customer, and product performance analysis
 * Implemented **RFM Segmentation** and Customer Lifetime Value (CLV) analysis to identify high-value and at-risk customers
-* Built **90-day sales forecasting models** using Prophet and Random Forest for revenue trend prediction
 * Developed interactive **Streamlit and Power BI dashboards** for real-time KPI monitoring, customer analytics, and business intelligence
 * Automated data cleaning, feature engineering, and reporting workflows, reducing manual analysis effort by **40%**
 * Generated actionable insights to support customer retention, revenue optimization, and data-driven decision-making
