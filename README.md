@@ -65,57 +65,83 @@ My core strength lies in turning messy, real-world data into clear insights and 
 
 ## 🚀 Featured Projects
 
-### 🤖 Smart Assistant with NLP & Automation
-`Python` `FastAPI` `Google Gemini API` `MySQL` `NLP` `Async Processing`
+### 🤖 ParcelPilot — AI Support Agent
+[🔗 Repository](https://github.com/YashrajThube/parcelpilot-ai-support-agent)
 
-- Engineered an AI assistant for scheduling, note generation, and task automation
-- Built an NLP pipeline for intent recognition and entity extraction
-- Designed multi-intent processing powered by the Google Gemini API
-- Developed a high-performance FastAPI backend using async processing
-- Achieved sub-2 second latency under concurrent workloads
-- Implemented MySQL integration with retry and fallback mechanisms
+`Python` `FastAPI` `LangGraph` `LangChain` `Groq` `RAG` `PostgreSQL` `React` `TypeScript`
 
-### 📈 Financial Analytics & Forecasting SaaS Platform
-`React` `FastAPI` `Python` `MySQL` `XGBoost` `LSTM` `Gemini API` `Docker`
+- Built an AI-powered customer support agent for parcel logistics that grounds every answer in real data instead of model guesswork
+- Combined a LangGraph agent workflow with RAG over internal support documentation and structured PostgreSQL lookups
+- Implemented citation validation so every policy-based answer is traceable to its source document
+- Designed a bounded tool-execution flow (decision → tool → result → decision → final) for predictable, testable agent behavior
+- Built a React + TypeScript frontend with a structured-data panel separate from the conversational chat view
 
-- Developed a SaaS platform for financial analytics and portfolio tracking
-- Built XGBoost and LSTM forecasting models for stock prediction and time-series forecasting
-- Integrated a Gemini-powered chatbot for conversational financial insights
-- Designed scalable, async REST APIs with sub-3 second response latency
-- Implemented monitoring, caching, and a scalable deployment architecture
+### 📈 NeuralAlpha — AI Financial Analytics Platform
+[🔗 Repository](https://github.com/YashrajThube/NeuralAlpha-AI-Financial-Analytics)
+
+`React` `FastAPI` `Python` `MySQL` `XGBoost` `LSTM` `Sentiment Analysis` `Machine Learning`
+
+- Built a financial analytics platform covering stock prediction, forecasting, sentiment analysis, and portfolio management
+- Developed XGBoost and LSTM models for time-series forecasting and price prediction
+- Integrated an AI-powered financial assistant for conversational portfolio insights
+- Designed scalable, async REST APIs for real-time analytics delivery
 
 ### 📊 Retail Sales Analytics & Customer Intelligence Platform
+[🔗 Repository](https://github.com/YashrajThube/retail-sales-analytics-forecasting-system)
 
-`Python` `Pandas` `MySQL` `Power BI` `Streamlit`
+`Python` `SQL` `Streamlit` `Power BI` `Pandas` `NumPy`
 
-* Developed an end-to-end retail sales analytics and customer intelligence platform using the Brazilian Olist E-Commerce Dataset
-* Processed and analyzed over **100,000+ e-commerce transactions** across customers, orders, products, and payments
-* Designed and optimized **25+ SQL business analytics queries** for revenue, customer, and product performance analysis
-* Implemented **RFM Segmentation** and Customer Lifetime Value (CLV) analysis to identify high-value and at-risk customers
-* Developed interactive **Streamlit and Power BI dashboards** for real-time KPI monitoring, customer analytics, and business intelligence
-* Automated data cleaning, feature engineering, and reporting workflows, reducing manual analysis effort by **40%**
-* Generated actionable insights to support customer retention, revenue optimization, and data-driven decision-making
+- Built an end-to-end retail analytics platform on the Brazilian Olist E-Commerce Dataset, processing **100,000+ transactions**
+- Designed and optimized **25+ SQL queries** for revenue, customer, and product performance analysis
+- Implemented **RFM Segmentation** and Customer Lifetime Value (CLV) analysis to flag high-value and at-risk customers
+- Built interactive Streamlit and Power BI dashboards for real-time KPI monitoring
+- Automated data cleaning and reporting workflows, cutting manual analysis effort by **40%**
 
 ### 🎯 Customer Churn Prediction Platform
-`Python` `XGBoost` `Scikit-learn` `FastAPI` `Streamlit` `SQLite` `MLflow`
+[🔗 Repository](https://github.com/YashrajThube/customer-churn-prediction)
 
-- Built a customer churn prediction platform achieving **87% ROC-AUC**
-- Developed a scalable preprocessing pipeline using ColumnTransformer, OneHotEncoder, and feature engineering
-- Implemented MLflow experiment tracking for reproducible model development
-- Designed a complete workflow: **CSV → Database → API → Dashboard**
-- Implemented PSI-based data drift detection with an automated retraining workflow to sustain performance
+`Python` `XGBoost` `Scikit-learn` `FastAPI` `React` `MLflow`
 
-### 🎵 Music Playlist Generator
-`Python` `Flask` `Librosa` `Pandas`
+- Built a churn prediction system achieving **87% ROC-AUC**, with a full analytics dashboard
+- Developed a scalable preprocessing pipeline using ColumnTransformer, OneHotEncoder, and custom feature engineering
+- Tracked experiments with MLflow for reproducible model development
+- Implemented PSI-based drift detection with automated retraining to sustain model performance over time
 
-- Developed a content-based music recommendation engine
-- Extracted MFCC and Chroma audio features using Librosa
-- Processed over **10,000+ audio tracks**
-- Improved recommendation accuracy by **28%**
-- Developed Flask REST APIs for real-time playlist generation, achieving response latency under **120 ms**
-- Optimized feature extraction for scalable batch processing
+### 🧠 NeuroVision AI — Brain Stroke Detection
+[🔗 Repository](https://github.com/YashrajThube/NeuroVision-AI)
 
----
+`Python` `TensorFlow` `Keras` `OpenCV` `CNN` `Computer Vision`
+
+- Built a deep learning system for brain stroke detection from MRI scans using Convolutional Neural Networks
+- Applied computer vision preprocessing techniques with OpenCV for image classification
+- Implemented and evaluated CNN architectures in TensorFlow/Keras for medical image diagnosis
+
+### 🗓️ Yashraj AI Assistant OS
+[🔗 Repository](https://github.com/YashrajThube/Yashraj-AI-Assistant-OS)
+
+`Python` `React` `Gemini API` `AI Agents` `Google Calendar API` `Automation`
+
+- Built an enterprise-style generative AI scheduling assistant that turns natural language into actionable workflows
+- Designed AI agents powered by Gemini for intelligent task planning and calendar automation
+- Integrated Google Calendar APIs for real scheduling actions, not just suggestions
+
+### 🎵 Music Playlist Generation System
+[🔗 Repository](https://github.com/YashrajThube/Music-Playlist-Generation-System)
+
+`Python` `Flask` `Librosa` `Scikit-learn`
+
+- Built a content-based music recommendation engine using Logistic Regression and KNN
+- Extracted MFCC and Chroma audio features with Librosa across **10,000+ tracks**
+- Built Flask REST APIs for real-time playlist generation with sub-**120ms** response latency
+- Improved recommendation accuracy by **28%** through feature tuning
+
+### 🔧 FastAPI + MySQL REST System
+[🔗 Repository](https://github.com/YashrajThube/Fastapi-System)
+
+`Python` `FastAPI` `MySQL`
+
+- Built a REST API for managing categories and products with pagination and structured JSON responses
+- Designed clean MySQL schema and query patterns for a lightweight product-catalog service
 
 ## 🎓 Education
 
