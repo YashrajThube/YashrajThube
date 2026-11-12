@@ -112,7 +112,7 @@ My focus is turning real-world problems into **reliable, production-oriented AI 
 </details>
 
 <!-- ===================================================================
-  PART 5 · PROJECTS  (live cards + grouped details)
+  PART 5 · PROJECTS  (detailed, one block per project)
 =================================================================== -->
 
 ## Projects
@@ -126,52 +126,154 @@ My focus is turning real-world problems into **reliable, production-oriented AI 
 
 </div>
 
-<details open>
-<summary><b>🤖 Generative AI & Agents</b></summary>
 <br/>
 
-**[ExpertLens AI](https://github.com/YashrajThube/ExpertLens-AI)** · `FastAPI` `React.js` `FAISS` `Groq` `RAG`
-RAG platform for expert interview transcripts, with **grounded citations and timestamps**, theme detection, **disagreement analysis**, and cross-transcript Q&A.
+### 🔎 ExpertLens AI: Expert Interview Analysis Platform
+<a href="https://github.com/YashrajThube/ExpertLens-AI"><img src="https://img.shields.io/badge/View%20Repository-181717?style=flat-square&logo=github"/></a> <img src="https://img.shields.io/github/last-commit/YashrajThube/ExpertLens-AI?style=flat-square&color=2E9EF7"/> <img src="https://img.shields.io/github/languages/top/YashrajThube/ExpertLens-AI?style=flat-square"/>
 
-**[ParcelPilot: AI Support & Policy Agent](https://github.com/YashrajThube/parcelpilot-intelligence-ai-powered-support-policy-agent)** · `FastAPI` `LangGraph` `LangChain` `Groq` `RAG` `PostgreSQL` `React` `TypeScript`
-Customer-support agent for parcel logistics giving **grounded answers, order lookups, and policy search**, with **citation-backed responses** and a **bounded tool-execution workflow** for predictable, testable behavior.
+**Overview:** RAG-based platform that lets you ask questions across many expert interview transcripts and get answers that are grounded in the source material, with citations and timestamps.
 
-**[ChronosAI (Yashraj-AI-Assistant-OS)](https://github.com/YashrajThube/Yashraj-AI-Assistant-OS)** · `FastAPI` `Gemini` `AI Agents` `Google Calendar API` `OAuth 2.0` `React`
-Scheduling assistant that turns **natural language into calendar workflows** using intent recognition, entity extraction, tool calling, and structured LLM outputs.
+**Flow:** `Transcripts` → `Chunking & embeddings` → `FAISS index` → `Retrieval` → `Groq LLM` → `Cited answer with timestamps`
 
-</details>
+**Key features**
+- **Grounded citations and timestamps** so every claim can be traced back to the exact transcript moment
+- **Cross-transcript Q&A** across multiple interviews at once
+- **Theme detection** to surface recurring topics among experts
+- **Disagreement analysis** to highlight where experts conflict
+- FastAPI backend with a React.js interface
 
-<details open>
-<summary><b>📈 Machine Learning & Deep Learning</b></summary>
-<br/>
+**Tech:** `Python` `FastAPI` `React.js` `FAISS` `Groq` `Sentence Transformers` `RAG`
 
-**[Customer Churn Prediction System](https://github.com/YashrajThube/customer-churn-prediction)** · `Scikit-learn` `XGBoost` `FastAPI` `React.js` `MLflow`
-Churn prediction with an analytics dashboard, a **ColumnTransformer / OneHotEncoder** pipeline, **MLflow** tracking, and **PSI-based drift detection** with retraining workflow.
+---
 
-**[NeuroVision AI: Brain Stroke Detection](https://github.com/YashrajThube/NeuroVision-AI)** · `TensorFlow` `Keras` `OpenCV` `CNN`
-MRI image classification with OpenCV preprocessing and augmentation; compared **CNN, InceptionV3, and MobileNet**.
+### 🤖 ParcelPilot: AI Support & Policy Agent
+<a href="https://github.com/YashrajThube/parcelpilot-intelligence-ai-powered-support-policy-agent"><img src="https://img.shields.io/badge/View%20Repository-181717?style=flat-square&logo=github"/></a> <img src="https://img.shields.io/github/last-commit/YashrajThube/parcelpilot-intelligence-ai-powered-support-policy-agent?style=flat-square&color=2E9EF7"/> <img src="https://img.shields.io/github/languages/top/YashrajThube/parcelpilot-intelligence-ai-powered-support-policy-agent?style=flat-square"/>
 
-**[NeuralAlpha: AI Financial Analytics](https://github.com/YashrajThube/NeuralAlpha-AI-Financial-Analytics)** · `FastAPI` `React` `MySQL` `XGBoost` `LSTM`
-Stock prediction, forecasting, **sentiment analysis**, portfolio management, and a financial assistant behind asynchronous REST APIs.
+**Overview:** AI customer-support agent for parcel logistics that answers from real business data and support policies instead of guessing.
 
-**[Music Playlist Generation System](https://github.com/YashrajThube/Music-Playlist-Generation-System)** · `Flask` `Librosa` `Scikit-learn`
-Content-based recommender using **MFCC and Chroma** features with **Logistic Regression and KNN**.
+**Flow:** `Customer query` → `LangGraph agent` → `RAG over policy docs` **or** `PostgreSQL order lookup` → `Citation-backed answer`
 
-</details>
+**Key features**
+- **LangGraph agent workflow** that decides when to search policies and when to look up an order
+- **RAG over internal support documentation** combined with **structured PostgreSQL lookups**
+- **Citation-backed responses**, so policy answers trace back to their source context
+- **Bounded tool-execution workflow** for predictable, testable agent behavior
+- React + TypeScript UI with separate **conversational** and **structured-data** views
 
-<details>
-<summary><b>📊 Data Analytics & Backend</b></summary>
-<br/>
+**Tech:** `Python` `FastAPI` `LangGraph` `LangChain` `Groq` `RAG` `PostgreSQL` `React` `TypeScript`
 
-**[Retail Sales Analytics & Customer Intelligence](https://github.com/YashrajThube/retail-sales-analytics-forecasting-system)** · `SQL` `Streamlit` `Power BI` `Pandas`
-Analytics on the **Brazilian Olist E-Commerce Dataset** with **RFM segmentation, CLV analysis, and sales forecasting**, plus Streamlit and Power BI dashboards.
+---
 
-**[FastAPI + MySQL REST System](https://github.com/YashrajThube/Fastapi-System)** · `FastAPI` `MySQL`
-Product and category REST API with **pagination and structured JSON responses**.
+### 🗓️ ChronosAI: Intelligent Scheduling & Planning Agent
+<a href="https://github.com/YashrajThube/Yashraj-AI-Assistant-OS"><img src="https://img.shields.io/badge/View%20Repository-181717?style=flat-square&logo=github"/></a> <img src="https://img.shields.io/github/stars/YashrajThube/Yashraj-AI-Assistant-OS?style=flat-square&color=2E9EF7"/> <img src="https://img.shields.io/github/last-commit/YashrajThube/Yashraj-AI-Assistant-OS?style=flat-square&color=2E9EF7"/>
 
-**Other:** [noise-project-and-pollution](https://github.com/YashrajThube/noise-project-and-pollution) · [Amazon_Clone](https://github.com/YashrajThube/Amazon_Clone)
+**Overview:** Generative AI scheduling assistant that converts plain-language requests into real calendar actions.
 
-</details>
+**Flow:** `Natural-language request` → `Intent recognition` → `Entity extraction` → `Tool calling` → `Google Calendar event`
+
+**Key features**
+- **Intent recognition and entity extraction** (dates, times, participants) from free text
+- **Tool-calling agent workflow** for task execution and planning
+- **Google Calendar API** integration for event creation and synchronization
+- **OAuth 2.0 authentication** and **structured LLM outputs** for reliable API calls
+
+**Tech:** `Python` `FastAPI` `Gemini` `AI Agents` `Google Calendar API` `OAuth 2.0` `React`
+
+---
+
+### 🎯 Customer Churn Prediction System
+<a href="https://github.com/YashrajThube/customer-churn-prediction"><img src="https://img.shields.io/badge/View%20Repository-181717?style=flat-square&logo=github"/></a> <img src="https://img.shields.io/github/last-commit/YashrajThube/customer-churn-prediction?style=flat-square&color=2E9EF7"/> <img src="https://img.shields.io/github/languages/top/YashrajThube/customer-churn-prediction?style=flat-square"/>
+
+**Overview:** End-to-end machine learning system that predicts which customers are likely to leave, with a dashboard for analysis.
+
+**Flow:** `Raw data` → `ColumnTransformer pipeline` → `XGBoost / Scikit-learn model` → `MLflow tracking` → `FastAPI` → `React dashboard`
+
+**Key features**
+- **Preprocessing pipeline** with ColumnTransformer, OneHotEncoder, and feature engineering
+- **MLflow** experiment tracking for reproducible model development
+- **PSI-based drift detection** and a retraining workflow
+- Interactive **analytics dashboard** served by a FastAPI backend
+
+**Tech:** `Python` `Scikit-learn` `XGBoost` `FastAPI` `React.js` `MLflow`
+
+---
+
+### 🧠 NeuroVision AI: Brain Stroke Detection
+<a href="https://github.com/YashrajThube/NeuroVision-AI"><img src="https://img.shields.io/badge/View%20Repository-181717?style=flat-square&logo=github"/></a> <img src="https://img.shields.io/github/last-commit/YashrajThube/NeuroVision-AI?style=flat-square&color=2E9EF7"/>
+
+**Overview:** Deep learning system that classifies brain MRI images to detect stroke.
+
+**Flow:** `MRI image` → `OpenCV preprocessing & augmentation` → `CNN / InceptionV3 / MobileNet` → `Stroke classification`
+
+**Key features**
+- **Image preprocessing and augmentation** with OpenCV (normalization, augmentation) to improve generalization
+- Custom **CNN** built with TensorFlow and Keras
+- **Architecture comparison** across CNN, InceptionV3, and MobileNet
+- Evaluation with accuracy, precision, recall, and confusion matrix
+
+**Tech:** `Python` `TensorFlow` `Keras` `OpenCV` `CNN` `Computer Vision` `Jupyter`
+
+---
+
+### 📈 NeuralAlpha: AI Financial Analytics Platform
+<a href="https://github.com/YashrajThube/NeuralAlpha-AI-Financial-Analytics"><img src="https://img.shields.io/badge/View%20Repository-181717?style=flat-square&logo=github"/></a> <img src="https://img.shields.io/github/last-commit/YashrajThube/NeuralAlpha-AI-Financial-Analytics?style=flat-square&color=2E9EF7"/> <img src="https://img.shields.io/github/languages/top/YashrajThube/NeuralAlpha-AI-Financial-Analytics?style=flat-square"/>
+
+**Overview:** Financial analytics platform that combines prediction models with a conversational assistant.
+
+**Key features**
+- **Stock prediction and forecasting** using **XGBoost and LSTM** models
+- **Sentiment analysis** on financial text
+- **Portfolio management** views
+- **Intelligent financial assistant** for conversational portfolio insights
+- Asynchronous **FastAPI** REST APIs delivering analytics and model outputs to a React frontend
+
+**Tech:** `Python` `FastAPI` `React` `MySQL` `XGBoost` `LSTM` `Sentiment Analysis`
+
+---
+
+### 📊 Retail Sales Analytics & Customer Intelligence Platform
+<a href="https://github.com/YashrajThube/retail-sales-analytics-forecasting-system"><img src="https://img.shields.io/badge/View%20Repository-181717?style=flat-square&logo=github"/></a> <img src="https://img.shields.io/github/last-commit/YashrajThube/retail-sales-analytics-forecasting-system?style=flat-square&color=2E9EF7"/> <img src="https://img.shields.io/github/license/YashrajThube/retail-sales-analytics-forecasting-system?style=flat-square"/>
+
+**Overview:** End-to-end business-intelligence project on the **Brazilian Olist E-Commerce Dataset**.
+
+**Key features**
+- **SQL analysis** of revenue, customers, products, and sales performance
+- **RFM segmentation** and **Customer Lifetime Value (CLV)** to find high-value and at-risk customers
+- **Sales forecasting**
+- Interactive **Streamlit and Power BI dashboards** for KPIs
+- Automated data cleaning and reporting for repeatable analytics
+
+**Tech:** `Python` `SQL` `Streamlit` `Power BI` `Pandas` `NumPy`
+
+---
+
+### 🎵 Music Playlist Generation System
+<a href="https://github.com/YashrajThube/Music-Playlist-Generation-System"><img src="https://img.shields.io/badge/View%20Repository-181717?style=flat-square&logo=github"/></a>
+
+**Overview:** Content-based music recommender that builds playlists from audio features.
+
+**Key features**
+- **MFCC and Chroma** feature extraction with Librosa
+- **Logistic Regression and KNN** recommendation models
+- Flask APIs for playlist generation
+
+**Tech:** `Python` `Flask` `Librosa` `Scikit-learn`
+
+---
+
+### 🔧 FastAPI + MySQL REST System
+<a href="https://github.com/YashrajThube/Fastapi-System"><img src="https://img.shields.io/badge/View%20Repository-181717?style=flat-square&logo=github"/></a>
+
+**Overview:** Lightweight product-catalog REST service.
+
+**Key features**
+- Manage **categories and products** through REST endpoints
+- **Pagination** and structured JSON responses
+- Designed database schemas and API endpoints
+
+**Tech:** `Python` `FastAPI` `MySQL`
+
+**Other repositories:** [noise-project-and-pollution](https://github.com/YashrajThube/noise-project-and-pollution) · [Amazon_Clone](https://github.com/YashrajThube/Amazon_Clone)
 
 <!-- ===================================================================
   PART 6 · EDUCATION & ACHIEVEMENTS
